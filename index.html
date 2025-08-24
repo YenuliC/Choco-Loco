@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Choco Loco - Delicious cakes, cupcakes, and cookies to order. Visit our cozy cafes or order custom cakes for any celebration.">
+    <meta name="keywords" content="choco loco, cake bakery, custom cakes, cupcakes, cookies, birthday cakes, wedding cakes, bakery cafe">
+    <meta name="author" content="Choco Loco">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Choco Loco - Delicious Cakes to Order">
+    <meta property="og:description" content="Specializing in custom cakes, cupcakes, and cookies. Visit our cafes or order online.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chocoloco.com">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Choco Loco - Delicious Cakes to Order">
+    <meta name="twitter:description" content="Specializing in custom cakes, cupcakes, and cookies. Visit our cafes or order online.">
+    
+    <title>Choco Loco - Delicious Cakes to Order</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Choco Loco</h1>
+                </div>
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#main" class="nav-link">Home</a></li>
+                        <li><a href="#catalog" class="nav-link active">Catalog</a></li>
+                        <li><a href="#about" class="nav-link">About us</a></li>
+                        <li><a href="#reviews" class="nav-link">Testimonials</a></li>
+                        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="header-contact">
+                    <div class="phone">
+                        <i class="fas fa-phone"></i>
+                        <span>077 123 1234</span>
+                    </div>
+
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="main" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Delicious cakes to order</h2>
+                    <a href="#catalog" class="cta-button">Explore Our Cakes</a>
+                </div>
+            </div>
+        </section>
+
+            <!-- About Us Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <h2 class="section-title">About us</h2>
+                    <div class="about-content">
+                        <p class="about-text">
+                            We specialize in selling delicious cakes, cupcakes and cookies online with fast delivery to your doorstep. Our expert bakers create custom cakes according to your design for any celebration. We ensure fresh, high-quality ingredients and beautiful presentation for every order, making your special occasions even more memorable.
+                        </p>
+    
+                    </div>
+                </div>
+            </section>
+    
+
+        <!-- Catalog Section -->
+        <section id="catalog" class="catalog">
+            <div class="container">
+                <h2 class="section-title">Our catalog</h2>
+                
+                <!-- Category Tabs -->
+                <div class="category-tabs">
+                    <button class="tab-button active" data-category="cakes">Cakes</button>
+                    <button class="tab-button" data-category="cupcakes">Cupcakes</button>
+                    <button class="tab-button" data-category="cookies">Cookies</button>
+                </div>
+
+                <div class="catalog-content">
+                    <!-- Product Grid -->
+                    <div class="product-grid">
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 2,800</div>
+                            <img src="images/chocolate.jpg" alt="Chocolate cake">
+                            <div class="product-overlay">
+                                <h4>Chocolate Cake</h4>
+                                <p>Rich dark chocolate with smooth ganache</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 3,200</div>
+                            <img src="images/strawberry.jpg" alt="Strawberry cake">
+                            <div class="product-overlay">
+                                <h4>Strawberry Cake</h4>
+                                <p>Fresh strawberries with whipped cream</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 2,600</div>
+                            <img src="images/oreo.jpg" alt="Oreo cake">
+                            <div class="product-overlay">
+                                <h4>Oreo Cake</h4>
+                                <p>Delicious Oreo cookies with cream filling</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 3,000</div>
+                            <img src="images/red-velvet.jpg" alt="Red velvet cake">
+                            <div class="product-overlay">
+                                <h4>Red Velvet Cake</h4>
+                                <p>Classic red velvet with cream cheese frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 3,500</div>
+                            <img src="images/blueberry.jpg" alt="Blueberry cake">
+                            <div class="product-overlay">
+                                <h4>Blueberry Cake</h4>
+                                <p>Fresh blueberries with vanilla cream</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 2,400</div>
+                            <img src="images/vanilla.jpg" alt="Vanilla cake">
+                            <div class="product-overlay">
+                                <h4>Vanilla Cake</h4>
+                                <p>Light vanilla sponge with buttercream</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 3,800</div>
+                            <img src="images/black-forest.jpg" alt="Black Forest cake">
+                            <div class="product-overlay">
+                                <h4>Black Forest Cake</h4>
+                                <p>Chocolate layers with cherries and cream</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cakes">
+                            <div class="price-badge">Rs. 3,300</div>
+                            <img src="images/pistachio.jpg" alt="Pistachio cake">
+                            <div class="product-overlay">
+                                <h4>Pistachio Cake</h4>
+                                <p>Nutty pistachio with green cream frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Cupcake Items -->
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 450</div>
+                            <img src="images/cupcake-vanila.jpg" alt="Vanilla Cupcake">
+                            <div class="product-overlay">
+                                <h4>Vanilla Cupcake</h4>
+                                <p>Classic vanilla with buttercream frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 500</div>
+                            <img src="images/cupcake-chocolate.jpg" alt="Chocolate Cupcake">
+                            <div class="product-overlay">
+                                <h4>Chocolate Cupcake</h4>
+                                <p>Rich chocolate with chocolate ganache</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 480</div>
+                            <img src="images/cupcake-strawberry.jpg" alt="Strawberry Cupcake">
+                            <div class="product-overlay">
+                                <h4>Strawberry Cupcake</h4>
+                                <p>Fresh strawberry with pink frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 520</div>
+                            <img src="images/Black Velvet Cupcakes.jpg" alt="Black Velvet Cupcake">
+                            <div class="product-overlay">
+                                <h4>Black Velvet Cupcake</h4>
+                                <p>Dark chocolate with cream cheese frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 480</div>
+                            <img src="images/cupcake-oreo.jpg" alt="Oreo Cupcake">
+                            <div class="product-overlay">
+                                <h4>Oreo Cupcake</h4>
+                                <p>Delicious Oreo cookies with cream</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 500</div>
+                            <img src="images/dark-chocolate-blueberry-cupcakes.jpg" alt="Dark Chocolate Blueberry Cupcake">
+                            <div class="product-overlay">
+                                <h4>Dark Chocolate Blueberry</h4>
+                                <p>Rich dark chocolate with fresh blueberries</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 480</div>
+                            <img src="images/easter-cupcake.jpg" alt="Easter Cupcake">
+                            <div class="product-overlay">
+                                <h4>Easter Cupcake</h4>
+                                <p>Festive vanilla with colorful sprinkles</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cupcakes">
+                            <div class="price-badge">Rs. 520</div>
+                            <img src="images/Matcha Cupcakes.jpg" alt="Matcha Cupcake">
+                            <div class="product-overlay">
+                                <h4>Matcha Cupcake</h4>
+                                <p>Japanese green tea with white frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Cookie Items -->
+                        <div class="product-item" data-category="cookies">
+                            <div class="price-badge">Rs. 200</div>
+                            <img src="images/chocolate-chip-cookies.jpg" alt="Chocolate Chip Cookies">
+                            <div class="product-overlay">
+                                <h4>Chocolate Chip Cookies</h4>
+                                <p>Classic chocolate chip with soft center</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cookies">
+                            <div class="price-badge">Rs. 220</div>
+                            <img src="images/double-chocolate-chip-cookies.jpg" alt="Double Chocolate Chip Cookies">
+                            <div class="product-overlay">
+                                <h4>Double Chocolate Chip</h4>
+                                <p>Rich chocolate cookie with chocolate chips</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cookies">
+                            <div class="price-badge">Rs. 200</div>
+                            <img src="images/red-velvet-cookies.jpg" alt="Red Velvet Cookies">
+                            <div class="product-overlay">
+                                <h4>Red Velvet Cookies</h4>
+                                <p>Classic red velvet with cream cheese</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cookies">
+                            <div class="price-badge">Rs. 180</div>
+                            <img src="images/strawberry-cookies.jpg" alt="Strawberry Cookies">
+                            <div class="product-overlay">
+                                <h4>Strawberry Cookies</h4>
+                                <p>Sweet strawberry with pink frosting</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="cookies">
+                            <div class="price-badge">Rs. 200</div>
+                            <img src="images/blueberry-cookies.jpg" alt="Blueberry Cookies">
+                            <div class="product-overlay">
+                                <h4>Blueberry Cookies</h4>
+                                <p>Fresh blueberry with vanilla glaze</p>
+                                <a href="https://wa.me/9477#####" target="_blank" class="cake-order-button">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button class="pagination-arrow" aria-label="Previous page">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <span class="pagination-info">01/05</span>
+                    <button class="pagination-arrow" aria-label="Next page">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Testimonials Section -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Testimonials</h2>
+                <div class="reviews-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial">
+                        <p>Wonderful online bakery! The ordering process is so easy and the cakes always arrive fresh and perfectly decorated. I love their Oreo filling. The delivery service is reliable and the cakes taste amazing. Highly recommend for any celebration!</p>
+                        <cite>- Julia Lan</cite>
+                    </div>
+                    <div class="reviews-navigation">
+                        <button class="nav-arrow" aria-label="Previous review">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="nav-arrow" aria-label="Next review">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts-content">
+                    <div class="contact-info">
+                        <h3>Contact Us</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>Phone: +1 567 632 65 78</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Address: 123 Sweet Street, Cake City, CC 12345</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Business Hours: Mon-Sat 8:00 AM - 8:00 PM</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Call to Action -->
+                        <div class="contact-cta">
+                            <p>Ready to order your perfect cake?</p>
+                            <a href="#" class="contact-cta-button">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Your Cake Quote Section -->
+        <section class="application">
+            <div class="container">
+                <h2 class="section-title">Get Your Cake Quote</h2>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/manbrdgo" method="POST" data-formspree="true">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="customerName">Your Name</label>
+                            <input type="text" id="customerName" name="customerName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="cakeType">Cake Type</label>
+                            <select id="cakeType" name="cakeType" required>
+                                <option value="">Select Cake Type</option>
+                                <option value="Chocolate">Chocolate</option>
+                                <option value="Strawberry">Strawberry</option>
+                                <option value="Oreo">Oreo</option>
+                                <option value="Red velvet">Red velvet</option>
+                                <option value="Blueberry cake">Blueberry cake</option>
+                                <option value="Vanilla cake">Vanilla cake</option>
+                                <option value="Black Forest">Black Forest</option>
+                                <option value="Pistachio">Pistachio</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDate">Event Date</label>
+                            <input type="date" id="eventDate" name="eventDate" required>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <input type="hidden" name="_next" value="https://formspree.io/thanks">
+                    <input type="hidden" name="_subject" value="New Cake Quote Request">
+                    <button type="submit" class="submit-button">Get Quote</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Choco Loco</h3>
+                </div>
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#catalog">Catalog</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#reviews">Testimonials</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/9477#####" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
