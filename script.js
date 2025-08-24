@@ -365,7 +365,7 @@ function initHeaderScroll() {
 
 // Order Button Functionality
 document.addEventListener('click', function(e) {
-    if (e.target.classList.contains('order-button') || e.target.classList.contains('cta-button')) {
+    if (e.target.classList.contains('order-button')) {
         e.preventDefault();
         
         // Scroll to contact form
